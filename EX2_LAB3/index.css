@@ -1,16 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-/* Thiết lập font chữ và màu nền cho trang web */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+ul, li{
+  list-style: none;
 }
+* body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Tahoma, Arial, sans-serif;
+
+}
+/* Thiết lập font chữ và màu nền cho trang web */
 /* Định dạng đoạn văn bản chungloại dấu gạch chân */
 a{
     color: #0077cc;
     text-decoration: none;
+}
+#page{
+  width: 1890px;
+  height: 90px;
+  margin: auto;
 }
 .navbar-header{
     margin-right: auto;

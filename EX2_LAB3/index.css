@@ -1,6 +1,4 @@
-ul, li{
-  list-style: none;
-}
+
 * body {
   margin: 0;
   padding: 0;
@@ -13,6 +11,9 @@ ul, li{
 a{
     color: #0077cc;
     text-decoration: none;
+}
+ul, li{
+  list-style: none;
 }
 #page{
   width: 1890px;

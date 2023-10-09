@@ -43,5 +43,70 @@ ul.nav.navbar-nav.navbar-right span {
 video.bgvid {
   width: 100%;
 }
+span.pix_text1 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+span.pix_text2{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+/* .email_subscribe{
+  display: flex;
+  justify-content: center;
+  
+} */
+.email_subscribe {
+  display: flex;
+  justify-content: center; /* Đặt chiều ngang là giữa */
+  align-items: center; /* Đặt chiều dọc là giữa */
+  height: 100vh; /* Đặt chiều cao của div là 100% chiều cao của viewport */
+  background-color: #f0f0f0; /* Màu nền của div */
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Đặt các phần tử con theo chiều dọc giữa */
+  max-width: 400px; /* Đặt chiều rộng tối đa của biểu mẫu */
+  padding: 20px;
+  background-color: #fff; /* Màu nền của biểu mẫu */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng cho biểu mẫu */
+}
+
+#email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.subscribe_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+
+
 
 

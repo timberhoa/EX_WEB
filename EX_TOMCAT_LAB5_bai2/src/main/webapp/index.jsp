@@ -14,8 +14,8 @@
     <div class="row justify-content-around" id="a">
         <form action="login" method="post" class="col-md-6 bg-light " id="border">
             <h3 class="text-center py-5" id="sign">Sign ip</h3>
-            <div class="form-group" id="sig">
-                <input id="of" class="form-control" name="username" type="text" placeholder="username of mail" required>
+            <div class="form-group" id="sige">
+                <input id="off" class="form-control" name="username" type="text" placeholder="username of mail" required>
             </div>
             <div class="form-group pt-4" id="sig">
                 <input id="of" class="form-control " name="password" type="password" placeholder="password" required>
@@ -30,15 +30,15 @@
             </div>
             <div id="icon">
                 <a href="#" class="login100-social-item">
-                    <img src="img/fb.png" id="gg">
+                    <img src="img/fb.png" id="ggg">
                 </a>
                 <a href="#" class="login100-social-item">
                     <img src="img/gg.png" id="gg">
                 </a>
             </div>
             <a class="text-center py-5 text-center" id="sign-up">Sign up</a>
+            </form>
     </div>
-
 </div>
 
 

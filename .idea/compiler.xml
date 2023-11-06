@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EX_TOMCAT_LAB" />
         <module name="Part3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EX_TOMCAT_LAB" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
